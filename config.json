@@ -1,0 +1,18 @@
+{
+  "owner": "Fadil Developer",
+  "telegram_token": "ISI_TOKEN_BOT_LU",
+  "ai": {
+    "enable": { "chatgpt": true, "gemini": true, "blackbox": true },
+    "default": "blackbox"
+  },
+  "accounts": {
+    "chatgpt": { "cookies_path": "./cookies/chatgpt.json" },
+    "gemini": { "cookies_path": "./cookies/gemini.json" }
+  },
+  "paths": {
+    "root": "./",
+    "storage": "./tempatallsc",
+    "db": "./db",
+    "media": "./media"
+  }
+}
